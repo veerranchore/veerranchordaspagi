@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home Page - Ranchordas Pagi</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1f3d2b",
+                        "military-yellow": "#F2B705",
+                        "background-light": "#f6f7f7",
+                        "background-dark": "#161c18",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .military-grid-item:hover {
+            box-shadow: inset 0 0 0 2px #F2B705;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#131614] dark:text-white transition-colors duration-300">
+<!-- Sticky Navigation Bar -->
+<nav class="sticky top-0 z-50 w-full bg-primary border-b border-primary/20 px-4 md:px-10 py-3 flex items-center justify-between shadow-md">
+<div class="flex items-center gap-3">
+<div class="text-military-yellow size-8 flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">military_tech</span>
+</div>
+<h2 class="text-white text-xl font-black uppercase tracking-tighter">Ranchordas Pagi</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-center gap-10">
+<a class="text-white/80 hover:text-military-yellow text-sm font-bold uppercase tracking-widest transition-colors" href="#">Journey</a>
+<a class="text-white/80 hover:text-military-yellow text-sm font-bold uppercase tracking-widest transition-colors" href="#">Gallery</a>
+<a class="text-white/80 hover:text-military-yellow text-sm font-bold uppercase tracking-widest transition-colors" href="#">Book</a>
+<a class="text-white/80 hover:text-military-yellow text-sm font-bold uppercase tracking-widest transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-military-yellow text-primary hover:bg-white px-6 py-2 rounded-sm font-black uppercase text-xs tracking-[0.1em] transition-all">
+            Order Book
+        </button>
+</nav>
+<!-- Hero Section -->
+<div class="relative w-full">
+<div class="w-full">
+<div class="flex min-h-[600px] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-8 text-center" data-alt="Vintage black and white photo of an Indian soldier in a desert landscape" style='background-image: linear-gradient(rgba(31, 61, 43, 0.75) 0%, rgba(22, 28, 24, 0.9) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuD7CSyeNAXEJd0rJ511abIP_NZSuEqQAmVucwGiyVB0kPBzIT7jq2Jwm5ixb_w3sinRBHRiLs8sz7Z6ZwMgJtqyVbeXkGOzMTIJuiZWdEzKi9fgrovuIjCOCzAjyTz5XZaVrPBtPvTQCjNCoSD996BXO-mNBztUv_jm6PCQfblIZNHf-yYkRz3dqoxYkGjnCI76xKXDfMZlPKRVGM8bvYRS_c89RmQosEpQUxIKMnxB2IJq3NdkpUwJGs3dq8-M6-E7TxaYop0Vz913");'>
+<div class="flex flex-col gap-4 max-w-4xl">
+<h1 class="text-white text-6xl md:text-8xl font-black leading-tight tracking-tighter uppercase">
+                        Ranchordas <span class="text-military-yellow">Pagi</span>
+</h1>
+<h2 class="text-white/90 text-lg md:text-2xl font-medium leading-normal uppercase tracking-[0.3em] border-y border-white/20 py-4">
+                        Indian Army Scout | Desert Tracker
+                    </h2>
+</div>
+<button class="mt-8 flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-sm h-14 px-8 bg-primary border-2 border-military-yellow text-military-yellow hover:bg-military-yellow hover:text-primary text-base font-black uppercase transition-all tracking-widest">
+                    Explore History
+                </button>
+</div>
+</div>
+</div>
+<!-- Intro Section -->
+<section class="max-w-7xl mx-auto px-6 md:px-10 py-24 grid md:grid-cols-2 gap-16 items-center">
+<div class="space-y-6">
+<h3 class="text-primary dark:text-military-yellow text-sm font-black uppercase tracking-[0.2em]">The Legacy of a Hero</h3>
+<h2 class="text-4xl md:text-5xl font-black leading-tight text-primary dark:text-white uppercase">The Unseen Sentinel of the Rann</h2>
+<p class="text-lg text-primary/80 dark:text-white/70 leading-relaxed font-medium">
+                Ranchordas Pagi was a legendary desert scout for the Indian Army, known for his extraordinary tracking skills during the 1965 and 1971 wars. His ability to read footprints in the sand guided troops through the treacherous Rann of Kutch when modern navigation failed.
+            </p>
+<div class="pt-4">
+<div class="flex items-center gap-4 text-primary dark:text-military-yellow font-black uppercase text-sm tracking-widest">
+<span class="w-12 h-[2px] bg-military-yellow"></span>
+<span>Established Scout Corps</span>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-[4/3] bg-primary rounded-sm overflow-hidden border-8 border-white dark:border-primary shadow-2xl" data-alt="Illustration of a traditional scout tracking footprints in desert sand">
+<img alt="Desert Landscape" class="w-full h-full object-cover grayscale contrast-125 opacity-80" data-alt="Dramatic desert dunes under high sun" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIDxKR66HoOZn89UMXx_VBlCVSTNdEQft-6nfNFx2w1rK0TAaKFZ8mZYkbwJY80eztj4T0qU0xRfbWBTUK8vr5i8gHwA_f0eP3fvNthld1KNWM8J-dclZueUK3RHdVDZcBeykBfmyqjJ2yyIXyO3A8usxrvjnqWJzw2u8UVtgOp8aDrdeG-0LvP5o8ut82h6gRfpuv99gDiKchmLBFjNYAKi0inu3iMVNLBv5SK5kJEm4jIFyyJo8Kh0owj6-7cLEfYViP0t-F_rAW"/>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-military-yellow p-8 text-primary font-black text-2xl uppercase tracking-tighter shadow-xl">
+                1901 — 2013
+            </div>
+</div>
+</section>
+<!-- Navigation Blocks Grid -->
+<section class="bg-primary py-24 px-6 md:px-10">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Journey -->
+<div class="military-grid-item bg-primary border border-white/10 aspect-square flex flex-col justify-between p-8 group cursor-pointer transition-all duration-300">
+<span class="material-symbols-outlined text-military-yellow text-4xl group-hover:scale-110 transition-transform">route</span>
+<div class="space-y-2">
+<h4 class="text-white text-2xl font-black uppercase">Journey</h4>
+<p class="text-white/60 text-sm font-medium uppercase tracking-wider">The 120-Year Timeline</p>
+</div>
+</div>
+<!-- Gallery -->
+<div class="military-grid-item bg-primary border border-white/10 aspect-square flex flex-col justify-between p-8 group cursor-pointer transition-all duration-300">
+<span class="material-symbols-outlined text-military-yellow text-4xl group-hover:scale-110 transition-transform">photo_library</span>
+<div class="space-y-2">
+<h4 class="text-white text-2xl font-black uppercase">Gallery</h4>
+<p class="text-white/60 text-sm font-medium uppercase tracking-wider">Archival Photography</p>
+</div>
+</div>
+<!-- Book -->
+<div class="military-grid-item bg-primary border border-white/10 aspect-square flex flex-col justify-between p-8 group cursor-pointer transition-all duration-300">
+<span class="material-symbols-outlined text-military-yellow text-4xl group-hover:scale-110 transition-transform">menu_book</span>
+<div class="space-y-2">
+<h4 class="text-white text-2xl font-black uppercase">Book</h4>
+<p class="text-white/60 text-sm font-medium uppercase tracking-wider">Official Biography</p>
+</div>
+</div>
+<!-- Contact -->
+<div class="military-grid-item bg-primary border border-white/10 aspect-square flex flex-col justify-between p-8 group cursor-pointer transition-all duration-300">
+<span class="material-symbols-outlined text-military-yellow text-4xl group-hover:scale-110 transition-transform">contact_support</span>
+<div class="space-y-2">
+<h4 class="text-white text-2xl font-black uppercase">Contact</h4>
+<p class="text-white/60 text-sm font-medium uppercase tracking-wider">Legacy Enquiries</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quote Highlight Section -->
+<section class="py-32 px-6 md:px-10 bg-military-yellow">
+<div class="max-w-4xl mx-auto text-center space-y-8">
+<span class="material-symbols-outlined text-primary text-6xl opacity-20">format_quote</span>
+<h2 class="text-primary text-4xl md:text-6xl font-black uppercase leading-[1.1] tracking-tight italic">
+                "Service before self. Duty before recognition."
+            </h2>
+<div class="w-24 h-1 bg-primary mx-auto"></div>
+<p class="text-primary font-bold uppercase tracking-[0.3em] text-sm md:text-base">The Pagi Creed</p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-dark py-16 px-6 md:px-10 border-t border-white/5">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+<div class="space-y-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-military-yellow">military_tech</span>
+<h2 class="text-white text-xl font-black uppercase tracking-tighter">Ranchordas Pagi Archive</h2>
+</div>
+<p class="text-white/40 text-sm max-w-xs uppercase font-medium tracking-widest">
+                    Honoring the scout who served India with nothing but his instincts and courage.
+                </p>
+</div>
+<div class="flex flex-wrap gap-8">
+<div class="flex flex-col gap-2">
+<p class="text-military-yellow font-black uppercase text-xs tracking-[0.2em] mb-2">Connect</p>
+<a class="text-white/60 hover:text-white uppercase text-sm font-bold transition-colors" href="#">Twitter</a>
+<a class="text-white/60 hover:text-white uppercase text-sm font-bold transition-colors" href="#">Facebook</a>
+<a class="text-white/60 hover:text-white uppercase text-sm font-bold transition-colors" href="#">Instagram</a>
+</div>
+<div class="flex flex-col gap-2">
+<p class="text-military-yellow font-black uppercase text-xs tracking-[0.2em] mb-2">Legal</p>
+<a class="text-white/60 hover:text-white uppercase text-sm font-bold transition-colors" href="#">Privacy</a>
+<a class="text-white/60 hover:text-white uppercase text-sm font-bold transition-colors" href="#">Terms</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 text-center">
+<p class="text-white/20 text-[10px] uppercase font-black tracking-[0.5em]">
+                © 2024 Ranchordas Pagi Legacy Foundation. All Rights Reserved.
+            </p>
+</div>
+</footer>
+</body></html>

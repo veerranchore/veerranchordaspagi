@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book Order Page - Ranchordas Pagi Legacy</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1f3d2b",
+              "military-yellow": "#d4af37",
+              "military-yellow-hover": "#b8962e",
+              "background-light": "#f6f7f7",
+              "background-dark": "#161c18",
+            },
+            fontFamily: {
+              "display": ["Public Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: "Public Sans", sans-serif;
+        }
+        .military-pattern {
+            background-image: radial-gradient(#1f3d2b 0.5px, transparent 0.5px);
+            background-size: 10px 10px;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#131614] dark:text-white min-h-screen">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#dee3e0] dark:border-b-[#2c332e] bg-white dark:bg-background-dark px-10 py-3 sticky top-0 z-50">
+<div class="flex items-center gap-4 text-primary dark:text-white">
+<div class="size-6">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] uppercase">Ranchordas Pagi Legacy</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<div class="hidden md:flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary/70 transition-colors" href="#">Home</a>
+<a class="text-sm font-medium leading-normal hover:text-primary/70 transition-colors" href="#">Biography</a>
+<a class="text-sm font-medium leading-normal hover:text-primary/70 transition-colors" href="#">Gallery</a>
+<a class="text-sm font-medium leading-normal hover:text-primary/70 transition-colors" href="#">Order Book</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] transition-opacity hover:opacity-90">
+<span class="truncate">Contact Us</span>
+</button>
+</div>
+</header>
+<main class="max-w-[1280px] mx-auto min-h-[calc(100vh-64px)] flex flex-col md:flex-row">
+<!-- Left Side: Book Info & Details -->
+<section class="w-full md:w-1/2 bg-primary/5 dark:bg-primary/10 p-8 md:p-16 border-r border-[#dee3e0] dark:border-[#2c332e] flex flex-col justify-center relative overflow-hidden">
+<div class="absolute inset-0 military-pattern pointer-events-none"></div>
+<div class="relative z-10 max-w-[440px] mx-auto">
+<div class="mb-8 group">
+<div class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]" data-alt="Hardcover book cover featuring an illustration of Ranchordas Pagi in the desert" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjRxewfklaC06M-EEG7J3-jfQST5wEkpgS3ezAgCmurf8AQ4uKMX6syjk0nrkfRCxbYTgVHJRSyb2h11IP6ShiU8isb6DAg-aGk1vC7S3iNysw6DdRyTEJELiFbfPUW6s0wgRYP5HqMX3Bt9gHnDsMWfZ-_LjxDd_Qz3MCUNNtDC2dr2CwL2XA8LTPMybtya56OTH7q3-6u1xt4j-839pPh2U68od55V9UalTIpWY-Q2uJHRLWQv4HonTHrUJb0CnpY8_vviYU2Wm-");'>
+</div>
+</div>
+<div class="mb-8">
+<span class="inline-block px-3 py-1 bg-primary text-white text-[10px] font-bold tracking-widest uppercase rounded-sm mb-4">Official Publication</span>
+<h1 class="text-[#131614] dark:text-white text-3xl font-extrabold leading-tight tracking-tight mb-4">
+                        The Legend of the Desert: Ranchordas Pagi
+                    </h1>
+<p class="text-[#6d7e74] dark:text-gray-400 text-base leading-relaxed">
+                        An inspiring account of India's greatest scout. Witness the grit and tactical brilliance of the man who guided the Indian Army through the treacherous Rann of Kutch during the 1965 &amp; 1971 wars.
+                    </p>
+</div>
+<div class="space-y-0">
+<div class="grid grid-cols-[30%_1fr] border-t border-t-[#dee3e0] dark:border-t-[#2c332e] py-4">
+<p class="text-[#6d7e74] dark:text-gray-400 text-sm font-bold uppercase tracking-tighter">Language</p>
+<p class="text-[#131614] dark:text-white text-sm font-medium">English / Hindi / Gujarati</p>
+</div>
+<div class="grid grid-cols-[30%_1fr] border-t border-t-[#dee3e0] dark:border-t-[#2c332e] py-4">
+<p class="text-[#6d7e74] dark:text-gray-400 text-sm font-bold uppercase tracking-tighter">Pages</p>
+<p class="text-[#131614] dark:text-white text-sm font-medium">256 Pages (Illustrated)</p>
+</div>
+<div class="grid grid-cols-[30%_1fr] border-t border-t-[#dee3e0] dark:border-t-[#2c332e] py-4">
+<p class="text-[#6d7e74] dark:text-gray-400 text-sm font-bold uppercase tracking-tighter">Format</p>
+<p class="text-[#131614] dark:text-white text-sm font-medium">Premium Hardcover</p>
+</div>
+<div class="grid grid-cols-[30%_1fr] border-y border-y-[#dee3e0] dark:border-y-[#2c332e] py-4">
+<p class="text-[#6d7e74] dark:text-gray-400 text-sm font-bold uppercase tracking-tighter">Price</p>
+<div class="flex items-center gap-2">
+<p class="text-primary dark:text-white text-lg font-extrabold">₹499</p>
+<span class="text-[10px] bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 px-2 py-0.5 rounded font-bold uppercase tracking-wide">Free Shipping</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Right Side: Order Form -->
+<section class="w-full md:w-1/2 bg-white dark:bg-background-dark p-8 md:p-16 flex flex-col justify-center">
+<div class="max-w-[440px] mx-auto w-full">
+<div class="mb-10 text-center md:text-left">
+<h3 class="text-[#131614] dark:text-white tracking-tight text-2xl font-bold leading-tight mb-2">Secure Your Copy</h3>
+<p class="text-[#6d7e74] dark:text-gray-400 text-sm">Fill in the dispatch details below to place your order.</p>
+</div>
+<form class="space-y-6">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-[#131614] dark:text-gray-300">Full Name</label>
+<input class="w-full px-4 py-3 bg-background-light dark:bg-[#1f2621] border-none rounded focus:ring-2 focus:ring-primary text-sm outline-none transition-all placeholder:text-gray-400" placeholder="e.g. Vikram Singh" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-[#131614] dark:text-gray-300">Mobile Number</label>
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm">+91</span>
+<input class="w-full pl-12 pr-4 py-3 bg-background-light dark:bg-[#1f2621] border-none rounded focus:ring-2 focus:ring-primary text-sm outline-none transition-all placeholder:text-gray-400" placeholder="00000 00000" type="tel"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-[#131614] dark:text-gray-300">Shipping Address</label>
+<textarea class="w-full px-4 py-3 bg-background-light dark:bg-[#1f2621] border-none rounded focus:ring-2 focus:ring-primary text-sm outline-none transition-all placeholder:text-gray-400 resize-none" placeholder="Street, City, State, PIN Code" rows="3"></textarea>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-[#131614] dark:text-gray-300">Quantity</label>
+<select class="w-full px-4 py-3 bg-background-light dark:bg-[#1f2621] border-none rounded focus:ring-2 focus:ring-primary text-sm outline-none appearance-none cursor-pointer">
+<option>1 Copy</option>
+<option>2 Copies</option>
+<option>5 Copies (Bulk)</option>
+<option>10+ Copies</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold uppercase tracking-widest text-[#131614] dark:text-gray-300">Language</label>
+<select class="w-full px-4 py-3 bg-background-light dark:bg-[#1f2621] border-none rounded focus:ring-2 focus:ring-primary text-sm outline-none appearance-none cursor-pointer">
+<option>English</option>
+<option>Hindi</option>
+<option>Gujarati</option>
+</select>
+</div>
+</div>
+<div class="pt-4 space-y-4">
+<button class="w-full py-4 bg-military-yellow hover:bg-military-yellow-hover text-black font-extrabold uppercase tracking-widest text-sm rounded shadow-lg transition-all transform active:scale-[0.98] flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[20px]">shopping_cart</span>
+                            Place Order Now
+                        </button>
+<div class="relative py-2 flex items-center">
+<div class="flex-grow border-t border-gray-200 dark:border-gray-800"></div>
+<span class="flex-shrink mx-4 text-xs text-gray-400 font-bold uppercase tracking-widest">OR</span>
+<div class="flex-grow border-t border-gray-200 dark:border-gray-800"></div>
+</div>
+<button class="w-full py-4 border-2 border-[#25D366] text-[#25D366] hover:bg-[#25D366]/5 font-bold uppercase tracking-widest text-sm rounded transition-all flex items-center justify-center gap-2" type="button">
+<svg class="size-5 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+</svg>
+                            Order via WhatsApp
+                        </button>
+</div>
+<div class="flex items-center justify-center gap-4 pt-6 opacity-60">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="text-[10px] font-bold uppercase tracking-wide">Secure Checkout</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">local_shipping</span>
+<span class="text-[10px] font-bold uppercase tracking-wide">India-wide Delivery</span>
+</div>
+</div>
+</form>
+</div>
+</section>
+</main>
+<!-- Simple Footer -->
+<footer class="bg-primary text-white/50 py-10 px-10 border-t border-white/10">
+<div class="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2">
+<div class="size-4 opacity-50">
+<svg fill="currentColor" viewbox="0 0 48 48">
+<path d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"></path>
+</svg>
+</div>
+<span class="text-xs font-bold tracking-widest uppercase">Ranchordas Pagi Legacy © 2024</span>
+</div>
+<div class="flex gap-8">
+<a class="text-[10px] font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="text-[10px] font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="text-[10px] font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Shipping &amp; Returns</a>
+</div>
+</div>
+</footer>
+</body></html>
