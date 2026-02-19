@@ -30,10 +30,7 @@ export default function Navigation() {
         <span className="material-symbols-outlined text-lg xs:text-xl sm:text-xl md:text-2xl">menu</span>
       </button>
 
-      {/* CTA Button */}
-      <Link to="/book" className="hidden sm:block bg-military-yellow text-primary hover:bg-white px-2 xs:px-2 sm:px-3 md:px-4 lg:px-5 xl:px-6 2xl:px-8 py-0.5 xs:py-1 sm:py-1 md:py-1.5 lg:py-2 xl:py-2 2xl:py-2.5 rounded-sm font-black uppercase text-[8px] xs:text-[9px] sm:text-[10px] md:text-[11px] lg:text-xs xl:text-sm 2xl:text-base tracking-[0.1em] transition-all">
-        Order Book
-      </Link>
+
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
