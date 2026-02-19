@@ -15,17 +15,17 @@ export default function HomePage() {
       
       {/* Hero Section */}
       <div className="relative w-full">
-        <div className="flex min-h-[400px] md:min-h-[500px] lg:min-h-[600px] flex-col gap-4 md:gap-6 bg-center bg-no-repeat items-center justify-center p-4 md:p-8 text-center" 
+        <div className="flex min-h-[400px] md:min-h-[500px] lg:min-h-[600px] flex-col gap-2 xs:gap-2.5 sm:gap-3 md:gap-4 lg:gap-6 bg-center bg-no-repeat items-center justify-center p-3 xs:p-4 sm:p-6 md:p-8 text-center" 
           style={{
             backgroundImage: 'linear-gradient(rgba(31, 61, 43, 0.75) 0%, rgba(22, 28, 24, 0.9) 100%), url("/assets/images.webp")',
             backgroundSize: 'contain',
             backgroundPosition: 'center'
           }}>
-          <div className="flex flex-col gap-2 md:gap-4 max-w-2xl md:max-w-3xl lg:max-w-4xl px-2">
-            <h1 className="text-white text-3xl sm:text-5xl md:text-6xl lg:text-8xl font-black leading-tight tracking-tighter uppercase">
+          <div className="flex flex-col gap-1.5 xs:gap-2 sm:gap-2.5 md:gap-3 lg:gap-4 max-w-xs xs:max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-4xl px-1 xs:px-2 sm:px-3 md:px-4">
+            <h1 className="text-white text-2xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-black leading-tight tracking-tighter uppercase">
               Ranchordas <span className="text-military-yellow">Pagi</span>
             </h1>
-            <h2 className="text-white/90 text-xs sm:text-sm md:text-lg lg:text-2xl font-medium leading-normal uppercase tracking-[0.2em] md:tracking-[0.3em] border-y border-white/20 py-2 md:py-4">
+            <h2 className="text-white/90 text-[10px] xs:text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl font-medium leading-normal uppercase tracking-[0.15em] md:tracking-[0.2em] lg:tracking-[0.3em] border-y border-white/20 py-1.5 xs:py-2 sm:py-2.5 md:py-3 lg:py-4">
               Indian Army Scout | Desert Tracker
             </h2>
           </div>
