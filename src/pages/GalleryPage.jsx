@@ -158,9 +158,11 @@ export default function GalleryPage() {
     {
       title: "Portrait of a Legend",
       description: "A visual tribute to the legendary scout Ranchordas Pagi.",
-      image: "/assets/images.webp",
+      image: "/assets/images.webp"
+    },
+    {
       title: "Family Legacy",
-      description: "A photo of  family members of ranchor pagi, preserving the personal side of the legendary scout.",
+      description: "A photo of family members of Ranchordas Pagi, preserving the personal side of the legendary scout.",
       image: "/assets/family photo.jpeg"
     }
   ]
